@@ -14,4 +14,13 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Returns the areas of the square"""
         return self.__size**2
+    
+    def size(self):
+        """Retrieves the size of the object"""
+        return self.__size
+
+    def set_size(self, name=None):
+        """allows setiing size for the self__size variable"""
+        self.__size = name
